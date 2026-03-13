@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: lock
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lock
+    username: kogito-user
+    password: "smmejo#!3577"
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
